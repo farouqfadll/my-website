@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    background-color: #f8f1e7;
+}
+.hero {
+    background-image: url(./1768513872624.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.overlay h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.overlay p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #e5533d;
+    transform: scale(1.05);
+}
+.specials {
+    text-align: center;
+    padding: 50px 20px;
+}
+.specials h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
